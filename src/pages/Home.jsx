@@ -50,7 +50,7 @@ const Home = () => {
 
     return [screenScale, screenPosition];
   };
-
+//ben
   const adjustIslandForScreenSize = () => {
     let screenScale, screenPosition;
 
