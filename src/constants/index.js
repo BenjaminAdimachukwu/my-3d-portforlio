@@ -26,7 +26,11 @@ import {
     typescript,
     food,
     cash,
-    java
+    java,
+    gamehub,
+    Tanstack,
+    prisma,
+    mysql
 } from "../assets/icons";
 
 export const skills = [
@@ -109,6 +113,21 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: Tanstack,
+        name: "Tanstack",
+        type: "Frontend",
+    },
+    {
+        imageUrl: prisma,
+        name: "prisma",
+        type: "ORM",
+    },
+    {
+        imageUrl: mysql,
+        name: "mysql",
+        type: "Databae",
     }
 ];
 
@@ -164,6 +183,13 @@ export const socialLinks = [
 
 export const projects = [
     
+    {
+        iconUrl: gamehub,
+        theme: 'btn-back-red',
+        name: 'GameHub',
+        description: 'Developed a highly responsive production grade App, for  discovering video games.',
+        link: 'https://github.com/BenjaminAdimachukwu/Game-hub',
+    },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
