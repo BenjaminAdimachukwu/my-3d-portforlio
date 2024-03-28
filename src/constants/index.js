@@ -28,7 +28,7 @@ import {
     cash,
     java,
     gamehub,
-    Tanstack,
+    tanstack,
     prisma,
     mysql
 } from "../assets/icons";
@@ -115,7 +115,7 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: Tanstack,
+        imageUrl: tanstack,
         name: "Tanstack",
         type: "Frontend",
     },
