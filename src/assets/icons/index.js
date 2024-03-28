@@ -29,6 +29,11 @@ import soundoff from './soundoff.png'
 import food from './food.svg'
 import cash from './cash.svg'
 import java from './java.svg'
+import reactquery from './reactquery.png'
+import mysql from './mysql.png'
+import prisma from './prisma.png'
+import gamehub from './gamehub.png'
+
 
 export {
     css,
@@ -61,5 +66,9 @@ export {
     soundoff,
     food,
     cash,
-    java
+    java,
+    reactquery,
+    mysql,
+    prisma,
+    gamehub
 }
